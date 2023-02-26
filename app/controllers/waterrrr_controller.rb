@@ -28,6 +28,7 @@ class WaterrrrController < ApplicationController
     render({ :template => "aqua/scorpio.html.erb" })
   end
 
+  # def fish
   def fish
     @horoscope = "Business and financial success makes you happy and satisfied, Pisces. You also look forward to moving on. The downside of this flush period is that people who aren't particularly trustworthy might decide to latch onto your coattails for their own purposes. Some might even ask for loans. Be careful about the ones you assist. 
     They might not be honest with you. Don't fall for any sob stories."
@@ -40,6 +41,6 @@ class WaterrrrController < ApplicationController
       @array_of_numbers.push(another_number)
     end
     
-    render({ :template => "aqua/pisces.html.erb" })
+    render({ :template => "layouts/pisces.html.erb" })
   end
 end
